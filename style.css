@@ -30,7 +30,7 @@ body{
 .nonclickable{
     font-size: 20px;
     text-align: center;
-    background-position: center;
+    background-position: center center;
     background-color:  #2e9af2;
     background-size: 200px 100px;
     border-radius: 25px;
@@ -43,11 +43,12 @@ body{
 .clickable{
     font-size: 20px;
     text-align: center;
-    background-position: center;
+    background-position: center center;
     background-color:  #2e9af2;
     background-size: 200px 100px;
     border-radius: 25px;
     padding: 20px;
+
 }
 .clickable:hover{
     background-color: #1d92f2;
@@ -100,8 +101,8 @@ body{
     width: 800px;
     padding: 10px;
     position: static;
-    max-width: 800px;
-    max-height: 500px;
+    max-width: 100%;
+    border-radius: 5%;
 }
 .skillimg{
     height: 500px;
@@ -109,5 +110,9 @@ body{
 }
 figcaption{
     font-size: 15px;
+
+}
+img{
+    border-radius: 5%;
 
 }
