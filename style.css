@@ -50,7 +50,7 @@ body{
 }
 .clickable:hover{
     background-color: #1d92f2;
-    box-shadow: 3px 3px 3px #1d92f2;
+    box-shadow: 3px 3px 3px #1869f5;
 }
 .clickable:active{
     background-color:#1b70f7;
@@ -97,6 +97,8 @@ body{
 .tomatofarm{
     height: 500px;
     width: 800px;
+    padding: 10px;
+    position: static;
 }
 .skillimg{
     height: 500px;
