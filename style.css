@@ -1,0 +1,46 @@
+p{
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'IBM Plex Sans', sans-serif;
+    text-align: center;
+}
+body{
+    background-image: url(map.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    margin: 0px;
+    padding: 10px;
+}
+.nonclickable{
+    font-size: 20px;
+    text-align: center;
+    background-position: center;
+    background-color:  #2e9af2;
+    background-size: 200px 100px;
+    border-radius: 25px;
+  padding: 20px;
+}
+.centered{
+    font-size: 20px;
+    text-align: center;
+    background-position: center;
+    background-color:  #2e9af2;
+    background-size: 200px 100px;
+    border-radius: 25px;
+    padding: 20px;
+}
+.centered:hover{
+    background-color: #1d92f2;
+    box-shadow: 3px 3px 3px #1d92f2;
+}
+.centered:active{
+    background-color:#1b70f7;
+}
+.title{
+    color: #FFD700;
+
+
+}
