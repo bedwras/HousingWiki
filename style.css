@@ -57,14 +57,14 @@ body{
     background-color:#1b70f7;
 }
 .title{
-    font-family: 'MinecraftiaRegular';
+    font-family: 'MinecraftiaRegular','IBM Plex Sans','sans-serif';
     font-weight: normal;
     font-style: normal; 
     color: #FFD700;
     text-shadow: 3px 1px 3px #858a0b;
 }
 .farmingtitle{
-    font-family: 'MinecraftiaRegular';
+    font-family: 'MinecraftiaRegular','IBM Plex Sans','sans-serif';
     font-weight: normal;
     font-style: normal; 
     color:#1e9e29;
@@ -88,7 +88,7 @@ body{
     box-shadow: 3px 3px 3px #e0230d;
 }
 .minecraftfont{
-    font-family: 'MinecraftiaRegular';
+    font-family: 'MinecraftiaRegular','IBM Plex Sans','sans-serif';
     font-weight: normal;
     font-style: normal; 
     text-shadow: 1px 1px 1px black;
@@ -135,14 +135,14 @@ img{
     text-align: center;
 }
 .miningtitle{
-    font-family: 'MinecraftiaRegular';
+    font-family: 'MinecraftiaRegular','IBM Plex Sans','sans-serif';
     font-weight: normal;
     font-style: normal; 
     color:#d67a02;
     text-shadow: 3px 1px 3px #823b01;
 }
 .foragingtitle{
-    font-family: 'MinecraftiaRegular';
+    font-family: 'MinecraftiaRegular','IBM Plex Sans','sans-serif';
     font-weight: normal;
     font-style: normal; 
     color:#bd1300;
