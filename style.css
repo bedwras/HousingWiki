@@ -34,7 +34,7 @@ body{
     background-color:  #2e9af2;
     background-size: 200px 100px;
     border-radius: 25px;
-  padding: 20px;
+    padding: 20px;
 }
 .clickable:visited{
     background-color:#8722d4;
@@ -68,7 +68,7 @@ body{
     font-weight: normal;
     font-style: normal; 
     color:#1e9e29;
-    text-shadow: 3px 1px 3px #0c5e16;
+    text-shadow: 3px 1px 3px #0e4d03;
 }
 .homebtn:active{
     background-color:#731102;
@@ -133,5 +133,19 @@ img{
     border-radius: 25px;
     padding: 20px;
     text-align: center;
+}
+.miningtitle{
+    font-family: 'MinecraftiaRegular';
+    font-weight: normal;
+    font-style: normal; 
+    color:#d67a02;
+    text-shadow: 3px 1px 3px #823b01;
+}
+.foragingtitle{
+    font-family: 'MinecraftiaRegular';
+    font-weight: normal;
+    font-style: normal; 
+    color:#bd1300;
+    text-shadow: 3px 1px 3px #a61403;
 }
 
