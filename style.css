@@ -63,13 +63,6 @@ body{
     color: #FFD700;
     text-shadow: 3px 1px 3px #858a0b;
 }
-.farmingtitle{
-    font-family: 'MinecraftiaRegular','IBM Plex Sans','sans-serif';
-    font-weight: normal;
-    font-style: normal; 
-    color:#1e9e29;
-    text-shadow: 3px 1px 3px #0e4d03;
-}
 .homebtn:active{
     background-color:#731102;
     box-shadow: 4px 4px 4px #731102;
@@ -148,4 +141,10 @@ img{
     color:#bd1300;
     text-shadow: 3px 1px 3px #a61403;
 }
-
+.farmingtitle{
+    font-family: 'MinecraftiaRegular','IBM Plex Sans','sans-serif';
+    font-weight: normal;
+    font-style: normal; 
+    color:#1e9e29;
+    text-shadow: 3px 1px 3px #0e4d03;
+}
