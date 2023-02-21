@@ -187,10 +187,14 @@ figcaption{
     transition: 0.3s;
 }
   .closebtn:hover{
-    color: black;
+    color: darkgray;
 } 
   .alert:hover{
     background-color: #b01a09;
     box-shadow: 3px 3px 3px #e0230d;
     transition-duration: 0.2s;
+}
+.closebtn:active{
+    color: #424242
+
 }
