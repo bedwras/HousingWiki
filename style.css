@@ -23,6 +23,12 @@ img{
     border-radius: 5%;
     max-width: 100%;
     max-height: 100%;
+    -webkit-transition-property: all; 
+    -webkit-transition-duration: 0.25s; 
+    -webkit-transition-timing-function: ease; 
+}
+img:hover{
+    transform: scale(1.03); 
 }
 .tomatofarm{
     opacity: 1;
@@ -80,7 +86,8 @@ img{
 .clickable:hover{
     background-color: #1d92f2;
     box-shadow: 4px 4px 4px #183696;
-    transition-duration: 0.2s;  
+    transition-duration: 0.2s; 
+    transform: scale(1.01);  
 }
 .clickable:active{
     background-color:#1b70f7;
@@ -107,6 +114,7 @@ img{
     background-color: #b01a09;
     box-shadow: 3px 3px 3px #e0230d;
     transition-duration: 0.2s;  
+    transform: scale(1.01); 
 }
 .homebtn:active{
     background-color:#731102;
@@ -188,11 +196,13 @@ figcaption{
 }
   .closebtn:hover{
     color: darkgray;
+    transform: scale(1.01); 
 } 
   .alert:hover{
     background-color: #b01a09;
     box-shadow: 3px 3px 3px #e0230d;
     transition-duration: 0.2s;
+    transform: scale(1.01); 
 }
 .closebtn:active{
     color: #424242
