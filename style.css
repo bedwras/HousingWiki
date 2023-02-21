@@ -80,9 +80,11 @@ img{
 .clickable:hover{
     background-color: #1d92f2;
     box-shadow: 4px 4px 4px #183696;
+    transition-duration: 0.2s;  
 }
 .clickable:active{
     background-color:#1b70f7;
+    transition-duration: 0.2s;  
 }
 .title{
     font-family: 'MinecraftiaRegular','IBM Plex Sans','sans-serif';
@@ -104,10 +106,12 @@ img{
 .homebtn:hover{
     background-color: #b01a09;
     box-shadow: 3px 3px 3px #e0230d;
+    transition-duration: 0.2s;  
 }
 .homebtn:active{
     background-color:#731102;
     box-shadow: 4px 4px 4px #731102;
+    transition-duration: 0.2s;  
 }
 .minecraftfont{
     font-family: 'MinecraftiaRegular','IBM Plex Sans','sans-serif';
@@ -161,4 +165,32 @@ figcaption{
     font-style: normal; 
     color:#1e9e29;
     text-shadow: 3px 1px 3px #0e4d03;
+}
+ .alert{
+    position: sticky;
+    padding: 20px;
+    background-color: #d6230f; 
+    color: black;
+    position: static;
+    border-radius: 25px;
+    opacity: 0.9;
+    transition: 0.2;
+}
+  .closebtn{
+    margin-left: 15px;
+    color: black;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+  .closebtn:hover{
+    color: black;
+} 
+  .alert:hover{
+    background-color: #b01a09;
+    box-shadow: 3px 3px 3px #e0230d;
+    transition-duration: 0.2s;
 }
