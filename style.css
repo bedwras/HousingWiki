@@ -24,11 +24,14 @@ img{
     max-width: 100%;
     max-height: 100%;
     -webkit-transition-property: all; 
-    -webkit-transition-duration: 0.25s; 
+    -webkit-transition-duration: 0.1s; 
     -webkit-transition-timing-function: ease; 
 }
+img:active{
+    transform: scale(1.10);  
+}
 img:hover{
-    transform: scale(1.03); 
+    /*blank*/
 }
 .tomatofarm{
     opacity: 1;
