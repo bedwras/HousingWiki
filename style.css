@@ -18,6 +18,22 @@ body{
     margin: 0px;
     padding: 10px;
 }
+img{
+    opacity: 1;
+    border-radius: 5%;
+    max-width: 100%;
+    max-height: 100%;
+}
+.tomatofarm{
+    opacity: 1;
+    height: 500px;
+    width: 800px;
+    padding: 10px;
+    position: static;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 5%;
+}
 .homebtn{
     font-size: 20px;
     text-align: center;
@@ -36,6 +52,16 @@ body{
     border-radius: 25px;
     padding: 20px;
     opacity: 0.9;
+}
+.nonclickablesolid{
+    font-size: 20px;
+    text-align: center;
+    background-position: center center;
+    background-color:  #2e9af2;
+    background-size: 200px 100px;
+    border-radius: 25px;
+    padding: 20px;
+    opacity: 1;
 }
 .clickable:visited{
     background-color:#8722d4;
@@ -89,15 +115,6 @@ body{
     font-style: normal; 
     text-shadow: 1px 1px 1px black;
 }
-.tomatofarm{
-    height: 500px;
-    width: 800px;
-    padding: 10px;
-    position: static;
-    max-width: 100%;
-    max-height: 100%;
-    border-radius: 5%;
-}
 .skillimg{
     height: 500px;
     width: 800px;
@@ -107,11 +124,6 @@ body{
 }
 figcaption{
     font-size: 15px;
-}
-img{
-    border-radius: 5%;
-    max-width: 100%;
-    max-height: 100%;
 }
 .version{
     text-align: right;
