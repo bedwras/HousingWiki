@@ -227,7 +227,7 @@ figcaption{
     padding: 10px;
 }
 .farmingbackground{
-    background-image: url(tomatofarm.png);
+    background-image: url(gardenplot.png);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center center;
@@ -236,7 +236,7 @@ figcaption{
     padding: 10px;
 }
 .foragingbackground{
-    background-image: url(RUINS.png);
+    background-image: url(stream.png);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center center;
