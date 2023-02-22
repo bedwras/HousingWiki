@@ -217,3 +217,39 @@ figcaption{
     color:#9416ba;
     text-shadow: 3px 1px 3px #55046e;
 }
+.miningbackground{
+    background-image: url(creepymineshaft.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin: 0px;
+    padding: 10px;
+}
+.farmingbackground{
+    background-image: url(tomatofarm.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin: 0px;
+    padding: 10px;
+}
+.foragingbackground{
+    background-image: url(RUINS.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin: 0px;
+    padding: 10px;
+}
+.locationsbackground{
+    background-image: url(town.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin: 0px;
+    padding: 10px;
+}
