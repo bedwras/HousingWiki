@@ -28,7 +28,7 @@ img{
     -webkit-transition-timing-function: ease; 
 }
 img:active{
-    transform: scale(1.10);  
+    transform: scale(1.08);  
 }
 img:hover{
     /*blank*/
