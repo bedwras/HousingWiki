@@ -10,7 +10,7 @@ a:link, a:visited {
     text-decoration: none;
 }
 body{
-    background-image: url(map.png);
+    background-image: url(pictures/map.png);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center center;
@@ -209,4 +209,11 @@ figcaption{
 }
 .closebtn:active{
     color: #424242
+}
+.locationtitle{
+    font-family: 'MinecraftiaRegular','IBM Plex Sans','sans-serif';
+    font-weight: normal;
+    font-style: normal; 
+    color:#9416ba;
+    text-shadow: 3px 1px 3px #55046e;
 }
