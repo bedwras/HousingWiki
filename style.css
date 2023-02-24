@@ -116,7 +116,7 @@ img:hover{
 }
 .homebtn:hover{
     background-color: #b01a09;
-    box-shadow: 3px 3px 3px #e0230d;
+    box-shadow: 3px 3px 3px #690500;
     transition-duration: 0.2s;  
     transform: scale(1.01); 
 }
@@ -199,13 +199,13 @@ figcaption{
     cursor: pointer;
     transition: 0.3s;
 }
-  .closebtn:hover{
+.closebtn:hover{
     color: darkgray;
     transform: scale(1.01); 
 } 
-  .alert:hover{
+.alert:hover{
     background-color: #b01a09;
-    box-shadow: 3px 3px 3px #e0230d;
+    box-shadow: 3px 3px 3px #690500;
     transition-duration: 0.2s;
     transform: scale(1.01); 
 }
