@@ -179,7 +179,7 @@ figcaption{
     color:#1e9e29;
     text-shadow: 3px 1px 3px #0e4d03;
 }
- .alert{
+.alert{
     position: sticky;
     padding: 20px;
     background-color: #d6230f; 
@@ -189,7 +189,7 @@ figcaption{
     opacity: 0.9;
     transition: 0.2;
 }
-  .closebtn{
+.closebtn{
     margin-left: 15px;
     color: black;
     font-weight: bold;
@@ -255,3 +255,4 @@ figcaption{
     margin: 0px;
     padding: 10px;
 }
+
