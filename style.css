@@ -276,7 +276,7 @@ figcaption{
     opacity: 0.9;
     box-shadow: 4px 4px 4px #838701;
 }
-/*.farmingbtn{
+.farmingbtn{
     font-size: 20px;
     text-align: center;
     background-position: center center;
@@ -293,6 +293,10 @@ figcaption{
     box-shadow: 0 0 20px #eee;
     transition-duration: 0.2s; 
     transform: scale(1.01);  
+}
+.farmingbtn:active{
+    transition-duration: 0.1s;  
+    transform: scale(1); 
 }
 .miningbtn{
     font-size: 20px;
@@ -311,6 +315,10 @@ figcaption{
     transition-duration: 0.2s; 
     transform: scale(1.01);  
 }
+.miningbtn:active{
+    transition-duration: 0.1s;  
+    transform: scale(1); 
+}
 .foragingbtn{
     font-size: 20px;
     text-align: center;
@@ -328,6 +336,10 @@ figcaption{
     transition-duration: 0.2s; 
     transform: scale(1.01);  
 }
+.foragingbtn:active{
+    transition-duration: 0.1s;  
+    transform: scale(1); 
+}
 .locationbtn{
     font-size: 20px;
     text-align: center;
@@ -344,7 +356,11 @@ figcaption{
     box-shadow: 0 0 20px white;
     transition-duration: 0.2s; 
     transform: scale(1.01);  
-}  */      
+}  
+.locationbtn:active{
+    transition-duration: 0.1s;  
+    transform: scale(1); 
+}     
 .wipbtn{
     font-size: 20px;
     text-align: center;
