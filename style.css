@@ -72,11 +72,11 @@ img:hover{
     padding: 20px;
     opacity: 1;
 }
-/*.clickable:visited{
+.clickable:visited{
     background-color:#8722d4;
     color:#8722d4;*/
 }
-/*.clickable{
+.clickable{
     font-size: 20px;
     text-align: center;
     background-position: center center;
@@ -84,13 +84,13 @@ img:hover{
     background-size: 200px 100px;
     border-radius: 25px;
     padding: 20px;
-    opacity: 0.9;*/
+    opacity: 0.9;
 }
 .clickable:hover{
     background-color: #1d92f2;
     box-shadow: 4px 4px 4px #183696;
     transition-duration: 0.2s; 
-    transform: scale(1.01);  */
+    transform: scale(1.01);  
 }
 .clickable:active{
     background-color:#1b70f7;
@@ -276,7 +276,7 @@ figcaption{
     opacity: 0.9;
     box-shadow: 4px 4px 4px #838701;
 }
-.farmingbtn{
+/*.farmingbtn{
     font-size: 20px;
     text-align: center;
     background-position: center center;
@@ -344,7 +344,7 @@ figcaption{
     box-shadow: 0 0 20px white;
     transition-duration: 0.2s; 
     transform: scale(1.01);  
-}        
+}  */      
 .wipbtn{
     font-size: 20px;
     text-align: center;
