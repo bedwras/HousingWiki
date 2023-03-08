@@ -367,3 +367,7 @@ figcaption{
     color:#f0910c;
     text-shadow: 3px 1px 3px #823b01;
 }
+.wipbtn:active{
+    transition-duration: 0.1s;  
+    transform: scale(1); 
+}
