@@ -72,9 +72,24 @@ img:hover{
     padding: 20px;
     opacity: 1;
 }
+.woodbackground{
+    font-size: 20px;
+    text-align: center;
+    background-position: center;
+    background-image: url(logbackground.png);
+    background-size: 30px;
+    background-repeat: repeat-x repeat-y;
+    border-radius: 25px;
+    padding: 20px;
+    opacity: 1;
+}
+.changelogfont{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
 .clickable:visited{
     background-color:#8722d4;
-    color:#8722d4;*/
+    color:#8722d4;
 }
 .clickable{
     font-size: 20px;
@@ -88,9 +103,9 @@ img:hover{
 }
 .clickable:hover{
     background-color: #1d92f2;
-    box-shadow: 4px 4px 4px #183696;
+    box-shadow: 0px 0px 20px #183696;
     transition-duration: 0.2s; 
-    transform: scale(1.01);  
+    transform: scale(1.01);
 }
 .clickable:active{
     background-color:#1b70f7;
@@ -116,7 +131,7 @@ img:hover{
 }
 .homebtn:hover{
     background-color: #b01a09;
-    box-shadow: 3px 3px 3px #690500;
+    box-shadow: 0px 0px 20px #690500;
     transition-duration: 0.2s;  
     transform: scale(1.01); 
 }
@@ -145,18 +160,32 @@ figcaption{
 .version{
     text-align: right;
 }
-#twitterbtn{
-    background-color: #139ae8;
-    border-color: #139ae8;
-    color: white;  
-    font-weight: bold; 
-    padding: 10px 20px;
+.twitterbtn{
+    background-color: #136ae8;
+    border-color: #136ae8;
     font-size: 16px;
-    position: relative;
-    background-size: 20px 100px;
-    border-radius: 25px;
-    padding: 20px;
+    border-radius: 15px;
+    padding: 10px 24px;
+    width: 250px;
+    height: 75px;
+    bottom:10px;
+    scale: 70%;
     text-align: center;
+    background-position: left;
+    text-align: center;
+    
+    
+}
+.twitterbtn:hover{
+    background-color: #1d92f2;
+    box-shadow: 0px 0px 20px #183696;
+    transition-duration: 0.2s; 
+    transform: scale(1.01);  
+}
+.twitterbtn:active{
+    background-color:#1b70f7;
+    transition-duration: 0.1s;  
+    transform: scale(1);  
 }
 .miningtitle{
     font-family: 'MinecraftiaRegular','IBM Plex Sans','sans-serif';
