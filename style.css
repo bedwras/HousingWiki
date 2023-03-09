@@ -276,7 +276,7 @@ figcaption{
     opacity: 0.9;
     box-shadow: 4px 4px 4px #838701;
 }
-.farmingbtn{
+/*.farmingbtn{
     font-size: 20px;
     text-align: center;
     background-position: center center;
@@ -361,6 +361,7 @@ figcaption{
     transition-duration: 0.1s;  
     transform: scale(1); 
 }     
+*/
 .wipbtn{
     font-size: 20px;
     text-align: center;
