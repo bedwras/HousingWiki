@@ -87,10 +87,10 @@ img:hover{
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
 }
-.clickable:visited{
-    background-color:#8722d4;
+/*.clickable:visited{
+    background-color:#8722d4;           doesnt even work
     color:#8722d4;
-}
+}*/
 .clickable{
     font-size: 20px;
     text-align: center;
@@ -137,7 +137,6 @@ img:hover{
 }
 .homebtn:active{
     background-color:#731102;
-    box-shadow: 4px 4px 4px #731102;
     transition-duration: 0.1s;
     transform: scale(1);  
 }
@@ -172,8 +171,6 @@ figcaption{
     text-align: center;
     background-position: left;
     text-align: center;
-    
-    
 }
 .twitterbtn:hover{
     background-color: #1d92f2;
@@ -213,7 +210,7 @@ figcaption{
     background-color: #d6230f; 
     color: black;
     position: static;
-    border-radius: 25px;
+    border-radius: 10px;
     opacity: 0.9;
     transition: 0.2;
 }
@@ -225,18 +222,14 @@ figcaption{
     font-size: 22px;
     line-height: 20px;
     cursor: pointer;
-    transition: 0.3s;
+    transition: 0.2s;
 }
 .closebtn:hover{
     color: darkgray;
-    transform: scale(1.01); 
 } 
-.alert:hover{
-    background-color: #b01a09;
+/*.alert:hover{
     box-shadow: 3px 3px 3px #690500;
-    transition-duration: 0.2s;
-    transform: scale(1.01); 
-}
+}*/
 .closebtn:active{
     color: #424242
 }
@@ -304,92 +297,6 @@ figcaption{
     opacity: 0.9;
     box-shadow: 4px 4px 4px #838701;
 }
-/*.farmingbtn{
-    font-size: 20px;
-    text-align: center;
-    background-position: center center;
-    background-image: linear-gradient(to right, #c21500 0%, #ffc500  51%, #c21500  100%);
-    background-size: 200% auto;
-    border-radius: 25px;
-    padding: 20px;
-    opacity: 1;
-}
-.farmingbtn:hover {
-    background-position: right center;
-    color: #fff;
-    text-decoration: none;
-    box-shadow: 0 0 20px #eee;
-    transition-duration: 0.2s; 
-    transform: scale(1.01);  
-}
-.farmingbtn:active{
-    transition-duration: 0.1s;  
-    transform: scale(1); 
-}
-.miningbtn{
-    font-size: 20px;
-    text-align: center;
-    background-position: center center;
-    background-image: linear-gradient(to right, #E6DADA 0%, #274046  51%, #E6DADA  100%);
-    background-size: 200% auto;
-    border-radius: 25px;
-    padding: 20px;
-    opacity: 1;
-}        
-.miningbtn:hover {
-    background-position: right center;
-    text-decoration: none;
-    box-shadow: 0 0 20px white;
-    transition-duration: 0.2s; 
-    transform: scale(1.01);  
-}
-.miningbtn:active{
-    transition-duration: 0.1s;  
-    transform: scale(1); 
-}
-.foragingbtn{
-    font-size: 20px;
-    text-align: center;
-    background-position: center center;
-    background-image: linear-gradient(to right, #52c234 0%, #061700  51%, #52c234  100%);
-    background-size: 200% auto;
-    border-radius: 25px;
-    padding: 20px;
-    opacity: 1;
-}        
-.foragingbtn:hover {
-    background-position: right center;
-    text-decoration: none;
-    box-shadow: 0 0 20px white;
-    transition-duration: 0.2s; 
-    transform: scale(1.01);  
-}
-.foragingbtn:active{
-    transition-duration: 0.1s;  
-    transform: scale(1); 
-}
-.locationbtn{
-    font-size: 20px;
-    text-align: center;
-    background-position: center center;
-    background-image: linear-gradient(to right, #ffd89b 0%, #19547b  51%, #ffd89b  100%);
-    background-size: 200% auto;
-    border-radius: 25px;
-    padding: 20px;
-    opacity: 1;
-}        
-.locationbtn:hover {
-    background-position: right center;
-    text-decoration: none;
-    box-shadow: 0 0 20px white;
-    transition-duration: 0.2s; 
-    transform: scale(1.01);  
-}  
-.locationbtn:active{
-    transition-duration: 0.1s;  
-    transform: scale(1); 
-}     
-*/
 .wipbtn{
     font-size: 20px;
     text-align: center;
