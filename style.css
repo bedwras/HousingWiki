@@ -27,22 +27,22 @@ img{
     -webkit-transition-duration: 0.1s; 
     -webkit-transition-timing-function: ease; 
 }
-img:active{
-    transform: scale(1.08);  
-}
+/*img:active{
+    transform: scale(1.08);  useless rn
+}*/
 img:hover{
     /*blank*/
 }
-.tomatofarm{
+/*.tomatofarm{
     opacity: 1;
-    height: 500px;
+    height: 500px;          unused saving for later
     width: 800px;
     padding: 10px;
     position: static;
     max-width: 100%;
     max-height: 100%;
     border-radius: 5%;
-}
+}*/
 .homebtn{
     font-size: 20px;
     text-align: center;
@@ -148,8 +148,7 @@ img:hover{
     text-shadow: 1px 1px 1px black;
 }
 .skillimg{
-    height: 500px;
-    width: 800px;
+    
     max-width: 100%;
     max-height: 100%;
     border-radius: 5%;
