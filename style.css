@@ -18,6 +18,29 @@ body{
     margin: 0px;
     padding: 10px;
 }
+.arrowback{
+    background-color: #d6230f;
+    border: none;
+    color: black;
+    padding: 6px 14px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    display: inline-block;
+    margin: 4px 2px;
+    border-radius: 6px;
+}
+.arrowback:hover{
+    background-color: #b01a09;
+    box-shadow: 0px 0px 20px #690500;
+    transition-duration: 0.2s;  
+    transform: scale(1.01); 
+}
+.arrowback:active{
+    background-color:#731102;
+    transition-duration: 0.1s;
+    transform: scale(1);  
+}
 img{
     opacity: 1;
     border-radius: 5%;
@@ -162,15 +185,12 @@ figcaption{
     background-color: #136ae8;
     border-color: #136ae8;
     font-size: 16px;
-    border-radius: 15px;
-    padding: 10px 24px;
-    width: 250px;
-    height: 75px;
-    bottom:10px;
-    scale: 70%;
+    margin: 4px 2px;
     text-align: center;
-    background-position: left;
+    display: inline-block;
+    padding: 6px 14px;
     text-align: center;
+    border-radius: 6px;
 }
 .twitterbtn:hover{
     background-color: #1d92f2;
