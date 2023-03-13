@@ -50,22 +50,6 @@ img{
     -webkit-transition-duration: 0.1s; 
     -webkit-transition-timing-function: ease; 
 }
-/*img:active{
-    transform: scale(1.08);  useless rn
-}*/
-img:hover{
-    /*blank*/
-}
-/*.tomatofarm{
-    opacity: 1;
-    height: 500px;          unused saving for later
-    width: 800px;
-    padding: 10px;
-    position: static;
-    max-width: 100%;
-    max-height: 100%;
-    border-radius: 5%;
-}*/
 .homebtn{
     font-size: 20px;
     text-align: center;
@@ -110,10 +94,6 @@ img:hover{
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
 }
-/*.clickable:visited{
-    background-color:#8722d4;           doesnt even work
-    color:#8722d4;
-}*/
 .clickable{
     font-size: 20px;
     text-align: center;
@@ -247,9 +227,9 @@ figcaption{
 .closebtn:hover{
     color: darkgray;
 } 
-/*.alert:hover{
+.alert:hover{
     box-shadow: 3px 3px 3px #690500;
-}*/
+}
 .closebtn:active{
     color: #424242
 }
