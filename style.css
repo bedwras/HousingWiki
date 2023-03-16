@@ -227,9 +227,9 @@ figcaption{
 .closebtn:hover{
     color: darkgray;
 } 
-.alert:hover{
+/*.alert:hover{
     box-shadow: 3px 3px 3px #690500;
-}
+}*/
 .closebtn:active{
     color: #424242
 }
